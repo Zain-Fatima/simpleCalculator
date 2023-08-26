@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Calculator | 01/100 Projects | By CodeBustler</title>
+    <link rel="icon" href="logo.jpg" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Simple Calculator</h1>
+    <div class="container">
+      <div id="output">00</div>
+
+      <input type="text" id="input1" placeholder="Value1" />
+      <input type="text" id="input2" placeholder="Value2" />
+
+      <div class="btns-container">
+        <button class="btns" onclick="add()">Addition</button>
+        <button class="btns" onclick="sub()">Substract</button>
+        <button class="btns" onclick="mul()">Multiply</button>
+        <button class="btns" onclick="div()">Division</button>
+        <button class="btns" onclick="reset()" id="reset">Reset</button>
+      </div>
+      <br />
+    </div>
+    <footer>
+      <p>By &nbsp;<a href="https://github.com/Zain-Fatima">ZainFatima</a> <i class="fab fa-github"></i>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
